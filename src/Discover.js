@@ -43,7 +43,7 @@ function Discover() {
                       </div>
                       <div class="card-body col-8">
                         <div class="d-flex justify-content-between">
-                          <Link to={`/movie/${userObj.id}`}>
+                          <Link to={`/movie/${userObj}`}>
                             <h5 class="card-title">{userObj.original_title}</h5>
                           </Link>
                           <p class="card-text me-5">{userObj.release_date}</p>
